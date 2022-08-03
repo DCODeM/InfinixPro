@@ -1,0 +1,34 @@
+body{
+    background-color: #B8F1B0;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #00FFAB;
+}
+
+nav ul li{
+    padding:0 20px; }
+
+.Logo{
+    display: flex;
+
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+.Logo img{
+    padding: 0 6px;
+}
+.first-section{
+    display : flex;
+}
