@@ -51,7 +51,41 @@ body{
 }
 
 
+.animetext{
+    animation: rainbow 5s ease 0s infinite alternate none running;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rainbow;
+    transition: all .4s cubic-bezier(.15,.75,.45,.95) 0s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.15, 0.75, 0.45, 0.95);
+    transition-delay: 0s;
+}
 
+@keyframes rainbow
+{
+    0% {
+        color: #f04dff;
+    }
+    25% {
+        color: #ff4d4d;
+    }
+    50% {
+        color: #ffc54d;
+    }
+    75% {
+        color: #6aed76;
+    }
+    100% {
+        color: #09f;
+    }
+}
 .anime{
     width: 100%;
     position: relative;
