@@ -19,7 +19,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-color: #07062a;
+     background-color: black
+    ;
 }
 .shine{
     position: relative;
@@ -59,7 +60,7 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: none;
-    animation-play-state: running;
+    animation-play-state: running;                                 /* Get it right Understand */
     animation-name: rainbow;
     transition: all .4s cubic-bezier(.15,.75,.45,.95) 0s;
     transition-property: all;
@@ -116,7 +117,7 @@ body{
 
 
 nav{
-    background-color: #a9e7ff;
+    background-color:/* #a9e7ff */ black;
 }
 nav ul{
     display: flex;
@@ -127,7 +128,7 @@ nav ul{
 }
 nav ul li{
     padding:0 20px;
-    color : black;
+    color : white;
  }
  
 .Logo{
