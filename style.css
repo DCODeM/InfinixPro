@@ -356,4 +356,14 @@ hr{
     color: #6aed76;
   }
 
+ .web-img {
+    animation: slidein1 0.5s ease-in ;
+  }
+  @keyframes slidein1{
+    0%{
+        transform: translateX(-500px);
+    }
+   
+  }
+
  
