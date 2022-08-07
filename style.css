@@ -29,7 +29,7 @@ body{
     font-size: 2em;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg,rgb(219, 6, 6),rgb(145, 255, 10),rgb(31, 192, 255));
+    background: linear-gradient(90deg,rgb(123, 122, 122),#fff,rgb(123, 122, 122))
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 6s linear infinite;
