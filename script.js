@@ -1,4 +1,3 @@
-
 let bg = document.getElementById("bg");
 let moon = document.getElementById("moon");
 let mountain = document.getElementById("mountain");
@@ -14,3 +13,19 @@ window.addEventListener('scroll',function(){
     text.style.top= value * 1  + 'px' ;
 })
 
+//typer
+const texta = document.querySelector(".second-text");
+
+const textLoad = () => {
+    setTimeout(() => {
+        texta.textContent = "Web Dev!";
+    }, 0);
+    setTimeout(() => {
+        texta.textContent = "Writing!";
+    }, 4000);
+    setTimeout(() => {
+        texta.textContent = "Coding";
+    }, 8000);
+}
+textLoad();
+setInterval(textLoad,12000);
